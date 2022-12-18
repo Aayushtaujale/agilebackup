@@ -1,0 +1,180 @@
+
+  .containerfirst {
+    background-image: url('/public/images/registerbag.jpg') ;
+    height: 100vh;
+    width: 100%;
+    background-position:left;
+  background-size: cover;
+  background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: px;
+   
+    display: flex;
+    justify-content: center;
+  
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.247); */
+ 
+  }
+
+.containersecond{
+    margin-left: 1011px;
+    height: 748px;
+    width: 1000px;
+  
+     background-color: rgba(0, 0, 0, 0.681);
+   
+    /* color: rgb(255, 255, 255); */ 
+    
+    /* display: flex;
+    justify-content: center;
+    
+    background-repeat: no-repeat; */
+
+  }
+  
+  .fonts{
+    margin-left: 50px;
+  }
+
+
+  .button {
+    
+      width: 50%;
+      height: 50px;
+      margin-top: 40px;
+      margin-left: 200px;
+      border-radius: 2px;
+      background: linear-gradient(
+        90deg,
+        rgb(39, 176, 255) 0%,
+        rgb(187, 204, 37) 100%
+      );
+      outline: none;
+      border: none;
+      color: #fff;
+      font-size: 1rem;
+    }
+    
+    .button:hover {
+      cursor: pointer;
+      background: linear-gradient(
+        90deg,
+        rgb(61, 64, 68) 0%,
+        rgb(189, 175, 24) 100%
+      );
+      transition: all 0.4s ease-out;
+    }
+    
+
+  .register-label {
+    display:contents;
+    font-size: 1.25rem;
+    margin-bottom: 6px;
+    color: rgb(199, 151, 151);
+    margin-right: 20px;
+    align-content: center;
+  }
+
+  .register-input {
+  
+    
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 293px;
+    border: none;
+    margin-left: 100px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     font-size: small;
+    
+  }
+
+  .register-inputs {
+  
+    
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 232px;
+    border: none;
+    margin-left: 135px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     font-size: small;
+  }
+  .register-inputss {
+
+    
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 293px;
+    border: none;
+    margin-left: 120px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     font-size: small;
+    /* align-content: center; */
+  }
+ 
+.h2{
+  color:black;
+  text-align:center;
+}
+
+.form-group{
+  margin-top: 5px;
+  display:flex; flex-direction: row; justify-content: center; align-items: center;
+  margin-left: 50px;
+}
+
+
+/* .logosection > img 
+    {
+    margin-left: 100px;
+    margin-top: -800px;
+    background: url('/public/images/logo2.png') center center/cover no-repeat;
+    position:relative;
+    height: 80px;
+    width: 150px;
+    animation: rotation 2s infinite linear;
+    }
+
+     */
+
+     .registerbtn {
+      width: 20%;
+      height: 50px;
+      margin-top: 40px;
+      margin-left: 220px;
+      border-radius: 2px;
+      background: linear-gradient(
+        90deg,
+        rgb(39, 176, 255) 0%,
+        rgb(56, 37, 204) 100%
+      );
+      outline: none;
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+    }
+    
+    .registerbtn:hover {
+      cursor: pointer;
+      background: linear-gradient(
+        90deg,
+        rgb(238, 255, 0) 0%,
+        rgb(189, 84, 24) 100%
+      );
+      transition: all 0.4s ease-out;
+    }
+    
